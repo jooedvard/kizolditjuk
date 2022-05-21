@@ -1,0 +1,77 @@
+
+.bg-gray-100{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/kepek/background.jpg")!important;
+}
+#email,#password{
+    font-size:1rem!important;
+    color: black!important;
+    line-height: unset!important;
+    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
+  }
+  .login{
+    margin-top: 1rem;
+    background-color: #1877f2!important;
+  }
+  .login-button-group{
+      flex-direction: column;
+    justify-content: space-between;
+  }
+  .logo-link img{
+    
+    margin: auto;
+    margin-top: 1rem;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .forgotpass{
+    margin-top: 1rem;
+    color: #1877f2!important;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+  body > div > div > div.w-full.sm\:max-w-md.mt-6.px-6.py-4.bg-white.shadow-md.overflow-hidden.sm\:rounded-lg{
+   box-shadow: unset;
+   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+   z-index: 1000!important;
+   background-color: rgba(255, 255, 255, 0.795);
+   
+   
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.szamalk{
+  margin-top: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.szamalk .main{
+
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  padding-top: 1rem;
+  
+}
+.szamalk .main .main-alt{
+  text-transform: uppercase;
+}
+.szamalk .alt{
+
+  font-size: 1.2rem;
+}
+.szamalk-logo{
+  filter: grayscale(0%)!important;
+ 
+}

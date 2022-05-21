@@ -1,0 +1,114 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background: white;
+
+    min-height: 100%;
+    overflow: hidden;
+    padding: 1em;
+}
+#form > fieldset > legend {
+    margin-bottom: 1rem;
+}
+#submit {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.nev-container{
+    width: 100%;
+}
+.selectek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    width: 100%!important;
+}
+.rendezo {
+    margin-top: 1rem;
+}
+.allapot-kesz {
+    background-color: rgb(6, 211, 6);
+    text-align: center;
+}
+#head > th:nth-child(4) {
+    text-align: center;
+}
+.allapot-folyamatban {
+    background-color: rgb(238, 238, 111);
+    text-align: center;
+}
+table {
+    margin-top: 2rem;
+    width: 100%;
+}
+table,
+td,
+th {
+    border: 1px solid gainsboro !important;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+th {
+    background-color: white;
+}
+
+th,
+td {
+    border-right: none;
+    border-left: none;
+    text-align: left;
+    background-color: white;
+}
+
+.chart {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+#tablazat {
+    width: 100% !important;
+    overflow-x: auto;
+}
+
+select {
+    margin: 2px;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aut {
+    text-decoration: none;
+    color: rgb(151, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#kicsi {
+    display: none;
+}
+.logged-osztaly-nev{
+    font-size: 1.1rem;
+    text-decoration: none;
+}
